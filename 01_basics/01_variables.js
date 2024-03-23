@@ -6,7 +6,7 @@ accountCity = "Skardu";
 // accountId = 3; //this variable type is constant that's why we can't change the value of it
 accountEmail = "ab@ab.com";
 accountName = "hitesh";
-accountCity = "Gilgit";
+accountCity = "Kharmang";
 
 /*
     don't use var never because of block scoped
