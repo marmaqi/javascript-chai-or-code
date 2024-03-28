@@ -13,8 +13,15 @@ let valueInNumber = Number(score);
 let isLoggedIn = "ali";
 
 let booleanIsLoggedIn = Boolean(isLoggedIn);
-console.log(booleanIsLoggedIn);
+// console.log(booleanIsLoggedIn);
 
 //  1 => true; 0 => false
 //  "" => false
 //  "ali" => true
+
+// ++++++++++++++ Operations ++++++++++++++++++++++
+
+console.log("1" + 2);
+console.log(1 + "2");
+console.log("1" + 2 + 2);
+console.log(1 + 2 + "2");
