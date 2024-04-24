@@ -54,4 +54,24 @@ const users = [
 // console.log(Object.keys(tinderUser));
 // console.log(Object.values(tinderUser));
 // console.log(Object.entries(tinderUser));
-console.log(tinderUser.hasOwnProperty('isLoggedIn')); //it check that property is exist or not in the array
+// console.log(tinderUser.hasOwnProperty('isLoggedIn')); //it check that property is exist or not in the array
+
+const course = {
+    coursename: "JS in Hindi",
+    price: "999",
+    courseInstructor: "Hitesh"
+}
+
+// course.courseInstructor
+//this is true but If we want to get two or more object values then we can also do below method
+const {courseInstructor:instructor} = course //we destructure name from courseInstructor to instructor
+// console.log(courseInstructor);
+console.log(instructor);
+
+//JSON format
+// {
+//     "name": "hitesh",
+//     "coursenme": "JS in hindi",
+//     "price": "free"
+// }
+
