@@ -36,10 +36,13 @@ const numbers = [1,2,3,4,5,6,7,8,9]
 const books = [
     {title: 'Book One', genre: 'Fiction', publish: 1981, eidition: 2004},
     {title: 'Book Two', genre: 'Non Fiction', publish: 1999, eidition: 2011},
-    {title: 'Book Three', genre: 'Comedy', publish: 1922, eidition: 2012},
-    {title: 'Book Four', genre: 'Sad', publish: 1900, eidition: 2000},
+    {title: 'Book Three', genre: 'Comedy', publish: 2000, eidition: 2012},
+    {title: 'Book Four', genre: 'Sad', publish: 2001, eidition: 2000},
 ];
 
-const userBooks = books.filter( (bk)=> bk.genre === 'Fiction')
+// const userBooks = books.filter( (bk)=> { return bk.genre === 'Fiction'})
+const userBooks = books.filter( (bk)=> { 
+    return bk.publish > 1900 && bk.genre === "Comedy"
+})
 
 console.log(userBooks);
